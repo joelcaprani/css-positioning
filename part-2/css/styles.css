@@ -1,0 +1,63 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  box-sizing: inherit;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 100%; /* this will be 16px on most browsers */
+  line-height: 1.5; /* this is a multiple of the font size (1.5 * 16px = 24px) */
+}
+
+body {
+  margin: 0;
+}
+
+img {
+  margin-left: 10px;
+  max-width: 50%;
+}
+
+figure {
+  margin: 0;
+}
+
+.film {
+  width: 50%;
+  margin: 40px auto;
+  display: inline;
+  position: static;
+}
+.film-poster {
+    float: left;
+}
+
+p {
+    float: right;
+    max-width: 40%;
+}
+
+p {
+    float: right;
+    max-width: 40%;
+    position: absolute;
+    margin-left: 450px;
+    margin-top: 60px;
+}
+.film-title {
+    float: right;
+    position: absolute;
+    margin-left: 440px;
+}
+.fa-2x {
+  font-size: 2em;
+  position: static;
+  float: right;
+  margin-right: 425px;
+  color: red;
+}
+.fa-lg {
+  color: red;
+}
